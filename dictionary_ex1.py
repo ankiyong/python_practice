@@ -6,9 +6,10 @@ student = [{'name':'홍길동', 'korean': 87, 'math': 98, 'english': 88, 'scienc
            {'name':'류현진', 'korean': 64, 'math': 88, 'english': 92, 'science': 92,}
            ]
 
-print('이름\t','총점\t','평균\t')
+print('이름\t','총점\n','평균')
 
 for i in student:
-    total = i['korean'] + i['math'] + i['english']+i['science']
-    avg = total/4
+    total = i['korean'] + i['math'] + i['english'] + i['science']
+    avg = total / len(i)
+
     print(i['name'],total,avg)
