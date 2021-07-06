@@ -24,14 +24,18 @@ print('이자액 : %d원' % a)
 
 
 
-def order():
-    price = int(input('상품가격 입력 : '))
-    qty = int(input('주문수량 입력 : '))
+def order(pr,qt):
+
     amount = price * qty
+    if amount >= 100000:
+        discount = amount * 0.1
+    elif amount >= 50000:
+        discount = amount * 0.05
+    total = amount - discount
+    return amount, discount, total
 
-    return price,qty,amount
-
-
+price = int(input('상품가격 입력 : '))
+qty = int(input('주문수량 입력 : '))
 pr,ea,total = order()
 
 
