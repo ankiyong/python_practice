@@ -71,6 +71,6 @@
 # print('%s-%s-%s' % (d,m,y))
 
 #20
-a,b = input().split('-')
-print(a,end="")
-print(b)
+# a,b = input().split('-')
+# print(a,end="")
+# print(b)
