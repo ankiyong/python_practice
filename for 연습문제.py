@@ -14,10 +14,10 @@
 #     print(i,end=" ")
 # print('발사')
 #
-# for i in range(0,4):
-#     for j in range(0,5):
-#         print('*',end=" ")
-#     print()
+for i in range(0,4):
+    for j in range(0,5):
+        print('*',end=" ")
+    print()
 # for i in range(0,5):
 #     for j in range(0,i+1):
 #         print('*',end=" ")
@@ -40,17 +40,17 @@
 #     for k in range(9,i*2,-1):
 #         print('*',end=" ")
 #     print()
-money = 10000
-song = 2000
-sing = 0
-change = money - (song * sing)
-while sing < 6:
-
-    if change != 0:
-        print('노래를 %d곡 불렀습니다.' % sing)
-        print('현재 %d원 남았습니다.' % (change))
-    else:
-        break
-    sing += 1
-    money = money-song
-print('잔액이 없습니다. 종료합니다.')
+# money = 10000
+# song = 2000
+# sing = 0
+# change = money - (song * sing)
+# while sing < 6:
+#
+#     if change != 0:
+#         print('노래를 %d곡 불렀습니다.' % sing)
+#         print('현재 %d원 남았습니다.' % (change))
+#     else:
+#         break
+#     sing += 1
+#     money = money-song
+# print('잔액이 없습니다. 종료합니다.')
