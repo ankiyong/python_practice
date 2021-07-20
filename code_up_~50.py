@@ -1,10 +1,14 @@
+#31
+# n = int(input())
+# print(chr(n))
+
 # #32
 # n = int(input())
 # print(-n)
 
 #33
-# a = input()
-# print(a+1)
+a = input()
+print(chr(a+1))
 #
 # #34
 # a,b = input().split()
@@ -79,10 +83,23 @@
 # a,b = input().split()
 # a = int(a)
 
-
-# b = int(b)
-# print(a * 2**b)
-
 #48
-# a,b = input().split()
-# print(a<b)
+a,b = map(int,input().split())
+if a<b:
+    print(True)
+else:
+    print(False)
+
+#49
+a, b = map(int,input().split())
+if a==b:
+    print(True)
+else:
+    print(False)
+
+#50
+a,b = map(int,input().split())
+if b >= a :
+    print(True)
+else:
+    print(False)

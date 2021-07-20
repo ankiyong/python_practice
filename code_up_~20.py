@@ -36,7 +36,10 @@
 # print('출력 : %f' % a_2)
 #
 # #12
-# #모름
+a = input()
+b = input()
+print(a)
+print(b)
 #
 # #13
 # d = input()

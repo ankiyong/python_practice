@@ -21,7 +21,30 @@
 # s = w1+w2
 # print(s)
 
+#25
+# a, b = input().split()
+# print(int(a)+int(b))
+
 #26
-n1 = float(input())
-n2 = float(input())
-print(n1+n2)
+# n1 = float(input())
+# n2 = float(input())
+# print(n1+n2)
+
+#27
+# a = input()
+# n = int(a)
+# print('%x' % n)
+
+#28
+# a = input()
+# n = int(a)
+# print('%X' % n)
+
+#29
+# a = input()
+# n = int(a,16)
+# print('%o' % n)
+
+#30
+# n = ord(input())
+# print(n)
