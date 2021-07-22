@@ -35,16 +35,22 @@
 #     print(s)
 
 #79
-# isum = 0
-# y = 0
-# x = int(input())
-# while isum <=x:
-#     isum+=1
-#     print(isum)
+
+sumi = 0
+n = 0
+x = int(input())
+while sumi < x:
+    n+=1
+    sumi += n
+print(n)
+
+
+
+
 
 #80
-n,m = input().split()
-
-for i in range(1,int(n)+1):
-    for j in range(1,int(m)+1):
-        print(i,j)
+# n,m = input().split()
+#
+# for i in range(1,int(n)+1):
+#     for j in range(1,int(m)+1):
+#         print(i,j)
