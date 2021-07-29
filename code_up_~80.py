@@ -13,12 +13,23 @@
 #     n = n-1
 
 #73
-
+# n = int(input())
+# while n!=0:
+#     n-=1
+#     print(n)
 
 #74
 # n = int(input())
 # for i in range(0,n+1):
 #     print(i)
+
+#75
+# n = int(input())
+# for i in range(n+1):
+#     print(i)
+
+#76
+
 
 #77
 # n = int(input())
