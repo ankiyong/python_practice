@@ -1,9 +1,9 @@
-#91
-a,b,c = map(int,input().split())
-day = 1
-while day%a!=0 or day%b!=0 or day%c!=0:
-    day+=1
-print(day)
+# #91
+# a,b,c = map(int,input().split())
+# day = 1
+# while day%a!=0 or day%b!=0 or day%c!=0:
+#     day+=1
+# print(day)
 
 #92
 # n = int(input())
@@ -44,5 +44,6 @@ print(day)
 #         baduk[i][y] = 1 if baduk == 0 else 1
 # for s in baduk:
 #    print(*s)
+#
 
-#99
+
